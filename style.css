@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+button {
+  background: #171495;
+  padding: 16px 56px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+}
+/* ========= Navbar ======== */
+.navbar {
+  background: #1a187a;
+}
+.navbar-brand {
+  width: 25%;
+}
+.search-menu {
+  width: 50%;
+}
+.search-bar {
+  position: relative;
+}
+.search-bar input {
+  padding: 12px 5px;
+  display: block;
+  width: 400px;
+  border-radius: 8px;
+  border: none;
+}
+.search-bar input:focus {
+  border: none;
+  outline: none;
+}
+.search-bar span {
+  position: absolute;
+  bottom: 30%;
+  border: none;
+  padding: 0 10px;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #656565;
+  opacity: 0.5;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+/* ===== Hero Section ======*/
+.carousel-item {
+  background-image: url("./image/v904-nunny-012\ 1.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-des {
+  height: 800px;
+  margin: auto 0;
+}
+.carousel-item .banner-des .mini-title {
+  font-size: 25px;
+  color: #1e046a;
+  font-weight: 400;
+}
+.carousel-item .banner-des h2 {
+  font-size: 70px;
+  color: #000;
+  font-weight: 400;
+}
+.carousel-item .banner-des span {
+  font-weight: 600;
+}
+.carousel-item .banner-des .des {
+  color: #000;
+  font-size: 18px;
+}
+.carousel-item .banner-des button {
+  background: #171495;
+  padding: 16px 56px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+}
+
+.carousel-item .banner-img {
+  margin-left: auto;
+  width: 80%;
+}
+.carousel-item .mac-pro-image {
+  width: 100%;
+}
+.carousel-item .mac-pro-image img {
+  width: 600px;
+}
+
+.carousel-control-prev-icon {
+  color: #670e86;
+  background-image: url("./image/Vector-prev.png");
+  width: 17.5px;
+  height: 38px;
+}
+.carousel-control-next-icon {
+  color: #670e86;
+  background-image: url("./image/Vector-next.png");
+  width: 17.5px;
+  height: 38px;
+}
+
+/* ============== Mini Banner ============== */
+#mini-banner {
+  overflow: hidden;
+}
+
+.mini-banner .ipad-inner {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  overflow: hidden;
+  height: 340px;
+  padding: 30px 10px;
+}
+.mini-banner .ipad-inner .ipad-des {
+  width: 50%;
+  margin: auto 0;
+}
+.mini-banner .ipad-des h3 {
+  font-size: 49px;
+}
+.mini-banner .ipad-des p {
+  font-size: 14px;
+}
+.mini-banner .ipad-img {
+  width: 513px;
+  position: absolute;
+  left: -90px;
+  height: 343px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./image/ipad.png");
+}
+/* head phone */
+.mini-banner .headphone-inner {
+  display: flex;
+  background: #adc2d7;
+  position: relative;
+  height: 100%;
+  justify-content: flex-end;
+}
+.mini-banner .headphone-des {
+  width: 50%;
+  margin-top: 50px;
+}
+.mini-banner .headphone-des h3 {
+  font-size: 29px;
+  width: 20%;
+  margin: 10px auto;
+}
+.mini-banner .headphone-des span {
+  font-weight: 500;
+}
+.mini-banner .headphone-des p {
+  font-size: 14px;
+  width: 60%;
+  margin-left: auto;
+  color: #fff;
+  font-weight: 500;
+}
+.mini-banner .headphone-img {
+  width: 513px;
+  height: 343px;
+  left: -120px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./image/hero__gnfk5g59t0qe_xlarge_2x\ 1.png");
+}
+/* mac */
+.mini-banner .mac-air-inner {
+  background: #ededed;
+  padding: 20px 60px;
+  display: flex;
+  position: relative;
+  height: 100vh;
+}
+.mini-banner .mac-air-des {
+  margin: auto 0;
+  width: 70%;
+}
+.mini-banner .mac-air-des h3 {
+  font-size: 64px;
+}
+.mini-banner .mac-air-des p {
+  font-size: 14px;
+}
+.mini-banner .mac-air-des span {
+  font-weight: 600;
+}
+.mini-banner .mac-air-des button {
+  border-radius: 6px;
+  background: #27448e;
+  font-weight: 500;
+}
+.mini-banner .mac-air-img {
+  width: 659.246px;
+  height: 429.212px;
+  top: 60px;
+  right: -450px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./image/mac-air.png");
+}
+
+/* Category List */
+#category-section {
+  padding: 60px 0;
+  background: #fafafa;
+}
+.cate-nav {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.category-list {
+  margin: 40px 0;
+}
+.category-list .cate-item {
+  width: 160px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background: #ededed;
+}
+.category-list .cate-item span {
+  font-size: 36px;
+}
+.category-list .cate-item p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Product Card  */
+#product-section {
+  margin: 100px 0;
+}
+.product-cards {
+  margin: 30px 0;
+}
+.product-nav {
+  list-style: none;
+}
+.product {
+  min-width: 250px;
+  padding: 24px 16px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 9px;
+  background: #f6f6f6;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.product img {
+  width: 160px;
+  height: 160px;
+}
+.product p {
+  text-align: center;
+  font-weight: 500;
+}
+.product h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.product button {
+  background: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 70px;
+}
+.product .react-product {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px 30px;
+  font-size: 20px;
+  color: red;
+}
+/* Sale Section */
+#sale-section {
+  background: #958ad4;
+  position: relative;
+  overflow: hidden;
+  height: 450px;
+}
+.sale-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sale-content h2 {
+  font-size: 72px;
+  font-weight: 900;
+  color: #fff;
+}
+.sale-content h2 span {
+  color: #25177b;
+}
+.sale-content p {
+  color: #fff;
+  width: 35%;
+  text-align: center;
+}
+#sale-section .left-img {
+  background: url("./image/image-19.png");
+  width: 421px;
+  height: 342px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50px;
+  left: -167px;
+}
+#sale-section .right-img {
+  background: url("./image/jbl_jr_310bt_blue\ 1.png");
+  width: 342px;
+  height: 357px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50px;
+  right: -66px;
+}
+/* ============ Footer ============== */
+#footer {
+  background: #0e071b;
+}
+
+#footer ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 0;
+}
+.footer-logo img {
+  width: 228px;
+  height: 46.494px;
+}
+.footer-inner .social-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer-inner .social-media li {
+  color: #fff;
+}
+.footer-inner .services li {
+  color: #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.footer-inner .assistance li {
+  color: #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  /* navbar */
+  .navbar-brand {
+    width: 50%;
+  }
+  .search-menu {
+    width: 100%;
+  }
+  .search-bar {
+    position: relative;
+    width: 100%;
+  }
+  .search-bar input {
+    width: 100%;
+  }
+  /* Hero section */
+  .banner-des {
+    height: 100%;
+    margin-bottom: 40px;
+  }
+  .carousel-item .banner-des .mini-title {
+    font-size: 14px;
+    text-align: center;
+  }
+  .carousel-item .banner-des h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .carousel-item .banner-des .des {
+    font-size: 14px;
+    text-align: center;
+  }
+  .carousel-item .banner-des button {
+    padding: 10px 56px;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+  }
+  /* Mini Banner */
+  .mini-banner .ipad-img {
+    width: 513px;
+    position: absolute;
+    left: -90px;
+    height: 343px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./image/ipad.png");
+  }
+  .mini-banner .ipad-inner .ipad-des {
+    width: 40%;
+    margin: auto 0;
+  }
+  .mini-banner .ipad-des h3 {
+    font-size: 30px;
+  }
+  .mini-banner .ipad-img {
+    width: 100%;
+    background-size: contain;
+  }
+  /* headphone */
+  .mini-banner .headphone-img {
+    left: -260px;
+    background-size: contain;
+  }
+  .mini-banner .headphone-des {
+    width: 85%;
+    margin-top: 50px;
+  }
+  /* mac air */
+  .mini-banner .mac-air-inner {
+    height: 100%;
+    flex-direction: column;
+  }
+  .mini-banner .mac-air-des {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .mini-banner .mac-air-img {
+    position: static;
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+  }
+  .mini-banner .mac-air-des h3 {
+    font-size: 50px;
+  }
+  /* Sale Section */
+  .sale-content h2 {
+    font-size: 50px;
+  }
+  #sale-section .left-img {
+    background: url("./image/image-19.png");
+    width: 100%;
+    height: 342px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -212px;
+    left: 26%;
+  }
+  #sale-section .right-img {
+    background: url("./image/jbl_jr_310bt_blue\ 1.png");
+    width: 342px;
+    height: 357px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 400px;
+    right: -20px;
+  }
+  #sale-section {
+    height: 100vh;
+  }
+  .sale-content {
+    margin: 40px 0;
+  }
+  .sale-content p {
+    color: #fff;
+    width: 50%;
+    text-align: center;
+  }
+  /* Footer */
+  .footer-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo {
+    order: 1;
+    margin-bottom: 40px;
+  }
+  .footer-inner .social-media {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    order: 4;
+  }
+  .footer-inner .services {
+    text-align: center;
+    order: 2;
+  }
+  .footer-inner .assistance {
+    text-align: center;
+    order: 3;
+  }
+}
